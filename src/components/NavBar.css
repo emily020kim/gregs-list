@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #525252;
+}
+
+.navbar-link {
+    font-family: 'Black Ops One';
+    font-size: 1.5rem;
+    color: azure;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #525252;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+.home-header {
+    color: black;
+    font-family: 'Black Ops One';
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.home-comment {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.home-image {
+    display: grid;
+    justify-content: center;
+}
