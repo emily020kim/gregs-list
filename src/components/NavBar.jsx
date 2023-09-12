@@ -21,6 +21,7 @@ export default function NavBar({ loggedIn, setUser, setLoggedIn }) {
                 <>
                 <Link className="navbar-link" to="/login">Login</Link>
                 <Link className="navbar-link" to="/posts">Posts</Link>
+                <Link className="navbar-link" to="/search">Search</Link>
                 </>
             )}
         </div>

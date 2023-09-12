@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+.search-header {
+    text-align: center;
+    font-family: 'Black Ops One';
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 5rem;
+}
+
+.search-form {
+    margin-bottom: 1rem;
+}
+
+.search-input {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-label {
+    font-family: 'Black Ops One';
+    font-size: 1.5rem;
+}
+
+ul {
+    margin-top: -5rem;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 5px;
+}

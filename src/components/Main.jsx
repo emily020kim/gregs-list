@@ -7,6 +7,7 @@ import CreatePost from './CreatePost'
 import Messages from './Messages'
 import Profile from './Profile'
 import SendMessage from './SendMessage'
+import Search from './Search'
 
 
 export default function Main({ setLoggedIn, setUser, loggedIn, user }) {
@@ -16,6 +17,8 @@ export default function Main({ setLoggedIn, setUser, loggedIn, user }) {
                 <Route path='/' element={<Home />} />
 
                 <Route path='/posts' element={<AllPosts />} />
+
+                <Route path='/search' element={<Search />} />
 
                 <Route path='/messages' element={<Messages 
                 loggedIn={loggedIn}
